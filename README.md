@@ -1,36 +1,70 @@
-# Monty Hall Problem Simulator
+# Getting Started with Create React App
 
-This React app simulates the famous Monty Hall problem, a probability puzzle based on a game show scenario. The user is presented with three doors, one of which hides a prize (winning door), while the other two hide non-winning results (losing doors). The aim of the game is to select the winning door, whose location is initially unknown and random.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## How to Play
+## Available Scripts
 
-1. The user sees three doors. Click on any door to select it.
-2. After the selection, one of the two remaining non-selected losing doors is revealed by the application.
-3. The user then gets to decide if they want to keep their initial selection or switch to the other unopened door.
-4. After the final selection, the chosen door will be opened to reveal whether it is the winning door or not.
-5. At any point, the user can reset the game and start over.
+In the project directory, you can run:
 
-## The Monty Hall Paradox
+### `npm start`
 
-The Monty Hall problem has a counter-intuitive solution. If you program the game to randomly set the winning door, it's statistically more advantageous to switch doors after the initial choice. The winning door will be the opposite of the initially chosen door about two-thirds of the time. Statisticians have been puzzled by this surprising outcome.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Implementation Details
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-This app was built using React to create the game environment. The logic behind the game mechanics involves setting the winning door randomly and revealing the non-winning door, giving the user a chance to switch or stick with their initial selection.
+### `npm test`
 
-### Running the App
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To run the application locally, follow these steps:
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run `npm install` to install the dependencies.
-4. Run `npm start` to start the development server.
-5. Access the game through your web browser at `http://localhost:3000` by default.
+### `npm run build`
 
-### Technologies Used
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- React: The JavaScript library used for building the user interface and managing the game's logic.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Inspiration
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-This project was inspired by the Monty Hall problem and serves as an interactive platform to observe the counter-intuitive probability phenomenon.
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
